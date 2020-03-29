@@ -11,7 +11,7 @@ jobs:
             - uses: actions/setup-node@v1
               with:
                   node-version: 12
-            - run: npm ci
+            - run: npm i
             - run: npm t
     release:
         name: Release
@@ -24,7 +24,7 @@ jobs:
               with:
                   node-version: 12
             - name: Install Dependencies
-              run: npm ci
+              run: npm i
             - name: Create Release Pull Request
               uses: changesets/action@master
               env:
@@ -40,7 +40,7 @@ jobs:
                   node-version: 12
                   registry-url: https://npm.pkg.github.com/
                   scope: '@mjeightyfive'
-            - run: npm ci
+            - run: npm i
             - run: npm run build
             - run: npm run publish
               env:
