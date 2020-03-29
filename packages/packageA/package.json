@@ -18,5 +18,8 @@
   ],
   "keywords": [
     "packageA"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
