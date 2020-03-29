@@ -1,0 +1,22 @@
+{
+    "name": "packageC",
+    "version": "0.0.0",
+    "description": "packageC",
+    "license": "MIT",
+    "author": {
+        "name": "Author"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "scripts": {
+        "build": "babel src/index.js --out-dir dist",
+        "test": "jest"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "packageC"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "changesets-workflow",
+    "version": "1.0.0",
+    "description": "Example setup for changesets workflow in a monorepo",
+    "main": "index.js",
+    "scripts": {
+        "test": "lerna run test",
+        "build": "lerna run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mjeightyfive/changesets-workflow.git"
+    },
+    "keywords": [
+        "changeset",
+        "changesets",
+        "lerna",
+        "monorepo"
+    ],
+    "author": "Marcin <mjeightyfive@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mjeightyfive/changesets-workflow/issues"
+    },
+    "homepage": "https://github.com/mjeightyfive/changesets-workflow#readme",
+    "devDependencies": {
+        "@babel/cli": "7.8.4",
+        "@babel/core": "7.9.0",
+        "@babel/plugin-transform-runtime": "7.9.0",
+        "@babel/preset-env": "7.9.0",
+        "babel-jest": "25.2.3",
+        "jest": "25.2.3",
+        "lerna": "^3.20.2"
+    }
+}

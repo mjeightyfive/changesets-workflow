@@ -1,0 +1,17 @@
+{
+    "version": "independent",
+    "npmClient": "npm",
+    "publishConfig": {
+        "access": "restricted"
+    },
+    "packages": [
+        "packages/*"
+    ],
+    "tagVersionPrefix": "",
+    "command": {
+        "publish": {
+            "registry": "http://localhost:4873",
+            "allowBranch": "master"
+        }
+    }
+}
