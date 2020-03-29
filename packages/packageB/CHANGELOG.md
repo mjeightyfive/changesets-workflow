@@ -1,4 +1,4 @@
-# @mjeightyfive/package-b
+# @mjefi/package-b
 
 ## 0.0.1
 ### Patch Changes
