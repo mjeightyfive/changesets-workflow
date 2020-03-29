@@ -4,7 +4,7 @@
     "description": "Example setup for changesets workflow in a monorepo",
     "main": "index.js",
     "publishConfig": {
-        "registry":"https://npm.pkg.github.com/"
+        "registry": "https://npm.pkg.github.com/"
     },
     "scripts": {
         "test": "lerna run test",
