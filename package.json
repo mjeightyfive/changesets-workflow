@@ -11,6 +11,11 @@
         "build": "lerna run build",
         "publish": "lerna publish from-package --y --no-verify-access"
     },
+    "workspaces": {
+        "packages": [
+            "packages/**"
+        ]
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mjeightyfive/changesets-workflow.git"
