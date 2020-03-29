@@ -1,0 +1,30 @@
+{
+  "name": "@mjefi/package-a",
+  "version": "0.0.2",
+  "description": "packageA",
+  "license": "MIT",
+  "author": {
+    "name": "Author"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjefi/changesets-workflow.git",
+    "directory": "packages/package-a"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "babel src/index.js --out-dir dist",
+    "test": "jest"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "packageA"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
