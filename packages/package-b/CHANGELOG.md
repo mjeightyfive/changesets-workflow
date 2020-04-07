@@ -1,5 +1,11 @@
 # @mjefi/package-b
 
+## 0.0.6
+
+### Patch Changes
+
+- 74f9ad2: update author name
+
 ## 0.0.5
 
 ### Patch Changes
