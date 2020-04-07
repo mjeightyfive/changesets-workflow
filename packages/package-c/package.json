@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "packageC",
   "license": "MIT",
+  "main": "dist/index.js",
   "author": {
     "name": "Author"
   },
@@ -18,9 +19,6 @@
     "build": "babel src/index.js --out-dir dist",
     "test": "jest"
   },
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     "packageC"
   ],
