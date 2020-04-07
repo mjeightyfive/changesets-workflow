@@ -4,6 +4,7 @@
   "description": "packageB",
   "license": "MIT",
   "main": "dist/index.js",
+  "files": "dist/**/*",
   "author": {
     "name": "Author"
   },
