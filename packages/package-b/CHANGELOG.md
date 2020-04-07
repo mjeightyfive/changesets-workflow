@@ -1,5 +1,11 @@
 # @mjefi/package-b
 
+## 0.0.7
+
+### Patch Changes
+
+- 637bf45: add readme
+
 ## 0.0.6
 
 ### Patch Changes
