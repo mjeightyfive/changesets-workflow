@@ -1,5 +1,11 @@
 # @mjefi/package-a
 
+## 0.0.5
+
+### Patch Changes
+
+- 19f4a7a: add npmignore
+
 ## 0.0.4
 
 ### Patch Changes
